@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0.2em;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+p {
+	margin: 1.1em;
+}
+body {
+
+	background: #F2F2F2;
+	font-size: 1em;
+	font-family: "Roboto", Arial,sans-serif,helvetica;
+}
+.wrap {
+	width: 90%;
+	max-width: 500px;
+	margin: auto;
+}
+form {
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top: 4px solid #536DFE;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+	border: 1px solid #536DFE;
+	border-radius: 2px;
+	padding: 16px;
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	font-family: "Roboto", Arial,sans-serif,helvetica;
+	font-size: 1em;
+	color: #141938;
+}
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus {
+	border: 2px solid #3F51B5;
+	padding: 15px;
+}
+form textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 300px;
+	min-height: 150px;
+}
+.alert {
+	padding: 1em;
+	color: #fff;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.alert.error {
+	background: #F2DEDE;
+	border: 1px solid #a94442;
+	color: #a94442;
+}
+.alert.success {
+	background: #4CAF50;
+}
+.btn,
+form input [type="submit"] {
+	padding: 15px;
+	background: #2AB7ED;
+	color: #E1E9FA;
+	font-size: 1em;
+	font-family: "Roboto",Arial,sans-serif,helvetica;
+	border-radius: 2px;
+	border:none;
+	float: right;
+	cursor: pointer;
+}
+
+form input [type="submit"]:hover{
+	background: #E64A19;
+}
+.sesion {
+	margin: 2em;
+	text-align: center;
+	background-color: grey;
+}
+
+.main-nav {
+	position: fixed;
+	background: #ddd;
+	width: 25%;
+	top:0;
+	overflow: auto;
+	height: 100%;
+}
+
+.main-menu {
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: -0;
+	padding-left: 0
+}
+.menu-item {
+	border-bottom: 1px solid #bbb;
+
+}
+.menu-link {
+	padding-left: 1em;
+	display: block;
+	color: #222;
+	line-height: 2.8;
+	text-decoration: none;
+
+}
+main {
+	margin-left: 27%;
+	width: 70%;
+}
+img {
+	width: 100%;
+}
+.slide {
+	margin-left: 27%;
+	height: 5%;
+	/*width: 90%;*/
+}
